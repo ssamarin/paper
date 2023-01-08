@@ -1,0 +1,38 @@
+.header {
+    padding: 11px 18px;
+    border-bottom: 1px solid rgba(22, 22, 22, 0.1);
+    &__wrapper {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    &__we {
+        display: flex;
+        column-gap: 22px;
+    }
+    &__link {
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 100%;
+        color: $grey;
+        &:hover {
+            color: $grey;
+        }
+    }
+    &__btn {
+        width: 119px;
+        height: 39px;
+        transition: 0.7s all;
+        &:hover {
+            border: 1px solid $black;
+            background-color: #fff;
+            color: $black;
+        }
+    }
+}
+.menu__list {
+    display: flex;
+    align-items: center;
+    column-gap: 22px;
+    list-style: none;
+}
