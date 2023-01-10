@@ -22,12 +22,6 @@
     &__btn {
         width: 119px;
         height: 39px;
-        transition: 0.7s all;
-        &:hover {
-            border: 1px solid $black;
-            background-color: #fff;
-            color: $black;
-        }
     }
 }
 .menu__list {

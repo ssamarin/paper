@@ -4,7 +4,28 @@
         font-size: 15px;
         line-height: 127%;
         border-radius: 100px;
+        transition: 0.7s all;
         background: $black;
         color: #FFFFFF;
+        &:hover {
+            border: 1px solid $black;
+            background-color: #fff;
+            color: $black;
+        }
+    }
+    &_white {
+        font-weight: 700;
+        font-size: 15px;
+        line-height: 127%;
+        border-radius: 100px;
+        transition: 0.7s all;
+        border: 2px solid #000000;
+        background-color: #fff;
+        color: $black;
+        &:hover {
+            border: none;
+            color: #fff;
+            background-color: $black;
+        }
     }
 }
