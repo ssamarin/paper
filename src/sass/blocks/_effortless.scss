@@ -1,0 +1,25 @@
+.effortless {
+    padding-top: 115px;
+    background: url(../img/effortless/effortless_bg.webp) center center / cover no-repeat;
+    &__wrapper {
+        margin: 0 auto;
+        max-width: 957px;
+        text-align: center;
+        color: $black;
+    }
+    &__title {
+        margin-bottom: 30px;
+        font-weight: 400;
+        font-size: 52px;
+        line-height: 104%;
+        letter-spacing: 1px;
+    }
+    &__descr {
+        margin: 0 auto 535px;
+        max-width: 791px;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 140%;
+    }
+}
+
