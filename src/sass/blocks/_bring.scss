@@ -1,0 +1,28 @@
+.bring {
+    min-height: 810px;
+    padding: 256px 1019px 260px 130px;
+    background: url(../img/bring/bring.webp) center center/cover no-repeat;
+    &__text {
+        max-width: 342px;
+        color: #FFFFFF;
+    }
+    &__title {
+        margin-bottom: 46px;
+        font-weight: 400;
+        font-size: 52px;
+        line-height: 104%;
+        letter-spacing: 1px;
+    }
+    &__descr {
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 140%;
+    }
+}
+
+.bring__text {
+}
+.bring__title {
+}
+.bring__descr {
+}
