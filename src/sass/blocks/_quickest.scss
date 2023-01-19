@@ -1,0 +1,23 @@
+.quickest {
+    padding: 85px 80px 95px 7px;
+    &__wrapper {
+        display: flex;
+        column-gap: 132px;
+        align-items: center;
+    }
+    &__text {
+        font-weight: 400;
+        letter-spacing: 1px;
+        color: $black;
+    }
+    &__title {
+        max-width: 323px;
+        font-size: 48px;
+        line-height: 112%;
+    }
+    &__descr {
+        max-width: 403px;
+        font-size: 20px;
+        line-height: 140%;
+    }
+}
