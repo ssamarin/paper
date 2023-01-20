@@ -1,0 +1,22 @@
+.available {
+    padding: 140px 0 314px;
+    &__wrapper {
+        margin: 0 auto;
+        max-width: 223px;
+        text-align: center;
+    }
+    &__img {
+        margin-bottom: 26px;
+    }
+    &__title {
+        margin-bottom: 35px;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 125%;
+        color: $black;
+    }
+    &__btn {
+        width: 127px;
+        height: 22px;
+    }
+}

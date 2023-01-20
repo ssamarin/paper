@@ -1,8 +1,8 @@
-.quickest {
-    padding: 85px 80px 95px 7px;
+.ideas {
+    padding-left: 100px;
     &__wrapper {
         display: flex;
-        column-gap: 132px;
+        justify-content: space-between;
         align-items: center;
     }
     &__text {
@@ -12,12 +12,12 @@
     }
     &__title {
         margin-bottom: 34px;
-        max-width: 323px;
-        font-size: 48px;
-        line-height: 112%;
+        max-width: 312px;
+        font-size: 52px;
+        line-height: 104%;
     }
     &__descr {
-        max-width: 403px;
+        max-width: 409px;
         font-size: 20px;
         line-height: 140%;
     }
